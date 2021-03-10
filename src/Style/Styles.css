@@ -1,0 +1,517 @@
+thead{
+  color: #ffffff !important;
+  background-color: #DE0000 !important;
+}
+
+.edit-container{
+  /* height: 321px !important; */
+  height: 500px !important;
+  
+}
+
+.k-edit-form-container{
+  /* width: 850px; */
+  width: 950px;
+  margin-left: 20px;
+}
+
+.k-grid{
+    zoom: 0.8;
+}
+
+#gridHistorico{
+  zoom: 0.7;
+}
+
+#gridHistoricoBeneficio{
+  zoom: 0.7;
+}
+
+.k-grid th{
+  color: white;
+}
+  
+  .column label{
+      font-weight: bold;
+  }
+  
+  .input{
+      width: 380px;
+      height: 34px;
+      padding: 2px 2px !important;
+      margin-top: 6px;
+      font-size: 17px !important;
+  }
+
+  .dropdown{
+    width: 400px;
+    height: 34px;
+    border: 1px solid #ababab !important;
+    padding: 0px 10px !important;
+    font-size: 17px !important;
+  }
+
+  .k-dropdown-wrap{
+      border: 0px !important;
+  }
+  
+  /* PeoplePicker Start */
+  .sp-peoplepicker-topLevel {
+      cursor: text;
+      height: 32px !important;
+      width: 500px !important;
+      height: auto !important;
+      padding: 7.5px 0px !important;
+    }
+     
+    img {
+      border: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+     
+    input[type=text], .sp-peoplepicker-topLevel, .sp-peoplepicker-autoFillContainer {
+      border: 1px solid #ababab;
+      background-color: #fff;
+      background-color: rgba( 255, 255, 255, 0.85);
+      color: #444;
+    }
+     
+    .ms-helperText {
+      color: #777;
+    }
+     
+    input.sp-peoplepicker-editorInput[type=text] {
+      border: 0px;
+      padding: 0px 1px;
+      margin-left: 5px;
+      vertical-align: inherit;
+      background-color: transparent;
+    }
+     
+    input.sp-peoplepicker-editorInput[type=text]:focus {
+      outline: 0px;
+    }
+     
+    input.sp-peoplepicker-editorInput::-ms-clear {
+      display: none;
+    }
+     
+    .sp-peoplepicker-autoFillContainer {
+      z-index: 1;
+      padding: 0px;
+      display: none;
+      cursor: default;
+      max-width: 300px;
+      min-width: 300px;
+      position: absolute;
+      border-color: #c6c6c6;
+    }
+     
+    .sp-peoplepicker-initialHelpText {
+      top: 3px;
+      left: 4px;
+      position: absolute;
+    }
+     
+    .sp-peoplepicker-userSpan {
+      cursor: pointer;
+      white-space: nowrap;
+      display: inline-block;
+      margin: 0px 5px 1px 2px;
+    }
+     
+    .sp-peoplepicker-delImage {
+      margin-left: 3px;
+    }
+     
+    .sp-peoplepicker-delImage:hover {
+      text-decoration: none;
+    }
+     
+    .sp-peoplepicker-userPresence {
+      margin-right: 3px;
+      display: inline-block;
+    }
+     
+    .sp-peoplepicker-userSpan .ms-entity-unresolved {
+      font-style: normal;
+    }
+     
+    .sp-peoplepicker-userSpan .ms-entity-unresolved {
+      overflow: hidden;
+    }
+     
+    .sp-peoplepicker-userDisplayLink {
+      color: #444;
+    }
+     
+    .sp-peoplepicker-userDisplayLink:hover {
+      text-decoration: none;
+    }
+     
+    .sp-peoplepicker-waitImg {
+      width: 16px;
+      height: 16px;
+      display: none;
+      font-size: 0px;
+      position: absolute;
+    }
+     
+    .ms-entity-unresolved {
+      cursor: pointer;
+      background-repeat: repeat-x;
+      background-position: left bottom;
+      padding-bottom: 2px;
+      vertical-align: text-top;
+      display: inline-block;
+      background-image: url("https://secol.sharepoint.com/_layouts/15/images/UserSquiggle.png?rev=47");
+    }
+     
+    .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled {
+      cursor: text;
+      height: 100%;
+      width: 371px;
+      position: relative;
+      padding: 3px 25px 3px 0px;
+    }
+     
+    .sp-peoplepicker-topLevelDisabled, .ms-inputBoxDisabled {
+      color: #aeaeae;
+      border-color: #e5e5e5;
+      background-color: #fdfdfd;
+      background-color: #fdfdfd;
+    }
+     
+    .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled, .sp-peoplepicker-autoFillContainer, .ms-inputBox {
+      border: 1px solid #bababa;
+      background-color: #fcfcfc;
+      background-color: rgba(252, 252, 252, 0.90);
+      color: #444444;
+    }
+  
+    .sp-peoplepicker-initialHelpText {
+      top: -10px;
+      left: 3px;
+      position: absolute;
+      display: none!important;
+      height: auto !important;
+    }
+  
+    .sp-peoplepicker-resolveList{
+      overflow-x: hidden;
+    }
+    /* PeoplePicker End*/
+  
+  .required-icon{
+      color: red;
+      font-weight: bold;
+  }
+  
+  .k-window-titlebar{
+      background-color: #DE0000;
+      color: #ffffff;
+      margin-bottom: 15px;
+      padding: 10px 24px;
+  }
+  
+  .k-tooltip{
+      background: cadetblue !important;
+      height: auto;
+      font-size: 15px;
+      padding: 5px;
+  }
+  
+  .k-grid-add{
+    color: #ffffff !important;
+    background-color: #DE0000;
+    margin-right: 20px;
+  }
+  
+  .k-filterable{
+    color: #ffffff;
+  }
+  
+  .k-grid-header-wrap{
+    background-color: #DE0000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .k-grid-header .k-link:hover{
+    color: #ffffff;
+  }
+  
+  .k-i-filter{
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .textarea{
+    height: 100px;
+  }
+  
+  .k-pager-wrap{
+    display: flex !important;
+  }
+
+  #grid > div.k-pager-wrap.k-grid-pager.k-widget.k-floatwrap > div > ul > li:nth-child(2) > span,
+  #grid > div.k-grid-content.k-auto-scrollable > table > tbody > tr.k-detail-row > td.k-detail-cell > div > div > div > ul > li:nth-child(2) > span{
+      background-color: #DE0000 !important;
+  }
+
+  /* div.k-widget.k-window{
+    height: 650px;
+  } */
+
+  .NumeroIdea{
+      display: none;
+  }
+
+#NumeroIdea{
+    width: 150px;
+    font-size: 18px;
+    padding-left: 10px !important;
+}
+
+
+.CreadoPor{
+    display: none;
+}
+
+#CreadoPor{
+    padding-left: 10px !important;
+    font-size: 16px;
+}
+
+.FechaCreacion{
+    display: none;
+}
+
+#FechaCreacion{
+    padding-left: 10px !important;
+    font-size: 16px;
+}
+
+#gridPuntaje{
+  zoom: 0.7;
+}
+
+#gridPuntaje .k-grid-toolbar{
+  padding-left: 0;
+}
+
+#historico{
+  margin: 0;
+}
+
+#beneficios{
+  margin: 0;
+}
+
+.btnPromover{
+  background-color: #DE0000;
+  color: white;
+}
+
+.btnPromover:hover{
+  background-color: white;
+  color: #DE0000;
+  border: solid 1px #DE0000;
+}
+
+.required-icon{
+  color: red;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.columnsBeneficio{
+  -webkit-box-shadow: 1px 1px 16px 2px rgba(194,194,194,1);
+  -moz-box-shadow: 1px 1px 16px 2px rgba(194,194,194,1);
+  box-shadow: 1px 1px 16px 2px rgba(194,194,194,1);
+
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#gridHistorico th:nth-child(7){
+  background-color: #FCDC19;
+  color: #DE0000;
+}
+
+#gridHistorico th:nth-child(7) .k-link:hover{
+  color: #DE0000;
+}
+
+#gridHistoricoBeneficio th:nth-child(5){
+  background-color: #FCDC19;
+  color: #DE0000;
+}
+
+#gridHistoricoBeneficio th:nth-child(5) .k-link:hover{
+  color: #DE0000;
+}
+
+#gridHistoricoBeneficio th:nth-child(6){
+  background-color: #FCDC19;
+  color: #DE0000;
+}
+
+#gridHistoricoBeneficio th:nth-child(6) .k-link:hover{
+  color: #DE0000;
+}
+
+#gridHistorico td,
+#gridHistorico th{
+  text-align: center;
+}
+
+#gridHistoricoBeneficio td,
+#gridHistoricoBeneficio th{
+  text-align: center;
+}
+
+
+.k-i-exception{
+  color: red;
+  font-weight: bold;
+}
+
+.k-tooltip-validation{
+  color: red;
+  background-color: white !important;
+}
+
+#Colaborador_TopSpan > div.k-widget.k-tooltip.k-tooltip-validation.k-invalid-msg,
+#AnalistaAsignado_TopSpan > div.k-widget.k-tooltip.k-tooltip-validation.k-invalid-msg,
+{
+  display: none !important;
+}
+
+.content-radio{
+  margin-left: 20px !important;
+  margin-top: 6px;
+  margin-bottom: 7px;
+}
+
+.content-radio input{
+  margin-bottom: -3px !important;
+}
+
+.content-radio label:hover{
+  cursor: pointer;
+}
+
+.k-edit-buttons{
+  margin-top: 0px !important;
+}
+
+.k-tooltip{
+  margin-top: -160px;
+  margin-left: -90px;
+}
+
+#setPuntuacion{
+  background-color: #FCDC19;
+  color: #DE0000;
+}
+
+.k-invalid-msg{
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+}
+
+#Colaborador_TopSpan_AutoFillDiv,
+#AnalistaAsignado_TopSpan_AutoFillDiv{
+  overflow: hidden;
+}
+
+#btnPromover{
+  width: 120px;
+  padding: 13px 0px;
+  background-color: #0F6F39;
+  border: none;
+  margin-left: 15px;
+}
+
+#btnPromover span{
+  font-size: 22px;
+  color: white;
+}
+
+#btnPromover:hover{
+  cursor: pointer;
+}
+
+.se-div-cbsf{
+  display: inline;
+  padding-right: 3em;
+}
+
+.se-div-cbsf input{
+  transform: translateY(5px);
+}
+
+.k-detail-cell{
+  zoom: 1;
+}
+
+.k-detail-cell{
+  zoom: 1.3 !important;
+}
+
+.k-i-check-circle{
+  color: green;
+}
+
+.k-i-close-circle{
+  color: red;
+}
+
+.k-i-plus-circle{
+  color: orangered;
+}
+
+.k-animation-container{
+  margin-top: -70px;
+  transform: translateX(-30px);
+}
+
+
+
+
+.k-animation-container .k-filter-menu{
+  padding: 10px;
+}
+
+.k-animation-container .k-filter-menu .k-textbox{
+  margin-bottom: 20px;
+}
+
+.k-animation-container .k-filter-menu input{
+  margin-right: 7px;
+}
+
+.k-animation-container .k-filter-menu .k-filter-selected-items{
+  margin-bottom: 15px;
+}
+
+.k-animation-container .k-filter-menu .k-primary{
+  margin-right: 15px;
+}
+
+#tituloSitio{
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -44px;
+  margin-left: 600px;
+}
+
+.tabstrip-valoracion{
+  height: 300px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/*.ts --no-hmr",
+    "build": "parcel build ./src/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pnp/sp": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/kendo-ui": "^2020.2.0",
+    "cssnano": "^4.1.10",
+    "typescript": "^3.9.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "sourceDirectory": "src",
+    "sharePointSiteUrl": "https://tccbpos.sharepoint.com/sites/pwa/IniciativasTest",
+    "workspaceRoot": "c:\\Proyectos\\TCC",
+    "publishWorkspaceOptions": {
+        "destinationFolder": "/",
+        "globPattern": "c:\\Proyectos\\TCC\\src\\**\\*.*",
+        "localRoot": "c:\\Proyectos\\TCC\\src"
+    },
+    "publishingScope": "SaveOnly",
+    "authenticationType": "Digest"
+}
